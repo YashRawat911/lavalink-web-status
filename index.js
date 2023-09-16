@@ -14,7 +14,7 @@ const prettyBytes = require("pretty-bytes");
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: false}))
 app.use(express.static(__dirname))
-server.listen(PORT,()=>{
+server.listen(3000,()=>{
 console.log("Server Is Running")
 })
 let watching = 0;
@@ -50,7 +50,7 @@ client.manager = new Manager({
     if (guild) guild.shard.send(payload);
   }
 })
-client.login("TOKEN")
+client.login("MTE0MjY3NzIzNzEyNTEwNzc1Mg.GDARrI.r2LeRmeDG5ceY1sUNA-5bpPONNyRHb_gi233is")
 
 client.on("ready",(client)=>{
   console.log(client.user.tag+" ready")
