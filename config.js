@@ -1,20 +1,12 @@
 module.exports = {
   nodes: [
      {
-      host: "HOST",
-      password: "PASSWORD",
-      port: PORT,
+      host: "bash.team-9237568.repl.co",
+      password: "24",
+      port: 443,
       retryDelay: 1,
-      identifier: "NAME FOR THE LAVALINK",
-      secure: false/true,
-    },
-    {
-      host: "HOST",
-      password: "PASSWORD",
-      port: PORT,
-      retryDelay: 1,
-      identifier: "NAME FOR THE LAVALINK",
-      secure: false/true,
+      identifier: "LAVALINK",
+      secure: true,
     },
   ],
 };
